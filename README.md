@@ -4,7 +4,6 @@
 - This exam consists of four interconnected questions that will guide you through a bioinformatics project workflow.
 - Submit your solutions as separate files with the names specified in each question.
 - Make sure your code is well-commented and follows good programming practices.
-- You may use any built-in Python libraries or standard command-line tools, but no external packages.
 
 ## Question 1: Project Setup (15 points)
 
@@ -145,6 +144,8 @@ Create a Python script that finds pairs of restriction enzyme cut sites that are
 4. Find all pairs of cut site locations that are 80,000-120,000 base pairs (80-120 kbp) apart.
 5. Print the total number of cut site pairs found and the positions of the first 5 pairs.
 6. Save a summary of the results (example below) in the results directory as "distant_cutsite_summary.txt".
+
+**NOTE:** This problem originally required searching for reverses, complements, and reverse complements. For simplicity, only use the cut site sequence as written (no reverse, no complement, definitely no reverse complement).
 
 Tips:
 - When running the script, put the cut site sequence in quotes to prevent issues with the pipe character, e.g., "G|GATCC".
