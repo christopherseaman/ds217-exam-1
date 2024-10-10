@@ -93,9 +93,9 @@ Create a Python script that performs various operations on DNA sequences. Your s
 
 1. Accept a DNA sequence as a command-line argument.
 2. Implement the following functions:
-   - `complement(sequence)`: Returns the complement of a DNA sequence (A -> T, C -> G, G -> C, T -> A; e.g., "CCTCAGC" -> "GGAGUCG").
+   - `complement(sequence)`: Returns the complement of a DNA sequence (A -> T, C -> G, G -> C, T -> A; e.g., "CCTCAGC" -> "GGAGTCG").
    - `reverse(sequence)`: Returns the reverse of a sequence (e.g. "CCTCAGC" -> "CGACTCC").
-   - `reverse_complement(sequence)`: Returns the reverse complement of a DNA sequence (e.g. "CCTCAGC" -> "GCUGAGG"); i.e. the reverse of the complement (apply `complement` then `reverse`, or vice versa).
+   - `reverse_complement(sequence)`: Returns the reverse complement of a DNA sequence (e.g. "CCTCAGC" -> "GCTGAGG"); i.e. the reverse of the complement (apply `complement` then `reverse`, or vice versa).
 3. For the input sequence, print:
    - The original sequence
    - Its complement
